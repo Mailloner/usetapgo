@@ -23,7 +23,7 @@ jobs:
         uses: actions/setup-node@v6
         with:
           node-version: lts/*
-          cache: npm
+          
 
       - name: Instalar dependências
         run: npm install
