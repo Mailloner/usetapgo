@@ -2,4 +2,13 @@
   "name": "vite_react_shadcn_ts",
   "private": true,
   "version": "0.0.0",
-}
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "NODE_ENV=development vite build --mode development",
+    "build:prod": "vite build",
+    "check": "pnpm lint && pnpm exec tsc --noEmit",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "pInstall": "pnpm install"
+  }
